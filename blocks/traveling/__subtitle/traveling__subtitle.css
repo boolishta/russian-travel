@@ -1,0 +1,22 @@
+.traveling__subtitle {
+  max-width: 640px;
+  margin: 32px auto 0;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .traveling__subtitle {
+    padding: 0 var(--gap-m);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .traveling__subtitle {
+    max-width: 288px;
+    margin-top: 16px;
+    padding: 0 var(--gap-s);
+    font-size: 16px;
+  }
+}

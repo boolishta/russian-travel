@@ -1,0 +1,27 @@
+.traveling__title {
+  margin: 0 auto;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .traveling__title {
+    padding: 0 var(--gap-m);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .traveling__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .traveling__title {
+    padding: 0 var(--gap-s);
+    font-size: 40px;
+  }
+}
