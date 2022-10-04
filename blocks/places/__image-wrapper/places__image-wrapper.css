@@ -1,0 +1,16 @@
+.places__image-wrapper {
+  display: flex;
+  aspect-ratio: 284 / 213;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__image-wrapper {
+    aspect-ratio: 300 / 225;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__image-wrapper {
+    aspect-ratio: 352 / 264;
+  }
+}

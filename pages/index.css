@@ -16,3 +16,14 @@
 @import url(../blocks/traveling/__subtitle/traveling__subtitle.css);
 @import url(../blocks/traveling/__image/traveling__image.css);
 @import url(../blocks/traveling/__sign/traveling__sign.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__article-wrapper/places__article-wrapper.css);
+@import url(../blocks/places/__article/places__article.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__list/places__list.css);
+@import url(../blocks/places/__list-item/places__list-item.css);
+@import url(../blocks/places/__list-count/places__list-count.css);
+@import url(../blocks/places/__images/places__images.css);
+@import url(../blocks/places/__image-wrapper/places__image-wrapper.css);
+@import url(../blocks/places/__image/places__image.css);
