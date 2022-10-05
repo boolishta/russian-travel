@@ -1,0 +1,10 @@
+.regions__item {
+  display: grid;
+  gap: 48px;
+}
+
+@media screen and (max-width: 500px) {
+  .regions__item {
+    gap: 32px;
+  }
+}

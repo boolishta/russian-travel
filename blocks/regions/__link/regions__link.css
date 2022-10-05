@@ -1,0 +1,14 @@
+.regions__link {
+  width: max-content;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFF;
+  transition: opacity .3s;
+}
+
+@media (hover:hover) {
+  .regions__link:hover {
+    opacity: 0.8;
+  }
+}

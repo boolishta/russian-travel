@@ -1,0 +1,23 @@
+.regions__text {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .regions__text {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .regions__text {
+    padding: 0 var(--gap-m);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .regions__text {
+    padding: 0 var(--gap-s);
+  }
+}

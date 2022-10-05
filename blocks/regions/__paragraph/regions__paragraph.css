@@ -1,0 +1,11 @@
+.regions__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 768px) {
+  .regions__paragraph {
+    font-size: 16px;
+  }
+}
