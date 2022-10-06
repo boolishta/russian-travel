@@ -1,0 +1,15 @@
+.banner__content {
+  position: absolute;
+  top: 50%;
+  right: var(--gap-l);
+  left: var(--gap-l);
+  transform: translate(0, -50%);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__content {
+    right: 0;
+    left: 0;
+  }
+}

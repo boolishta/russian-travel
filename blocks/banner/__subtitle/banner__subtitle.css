@@ -1,0 +1,15 @@
+.banner__subtitle {
+  max-width: 360px;
+  margin: 32px auto 0;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .banner__subtitle {
+    margin-top: 16px;
+    padding: 0 var(--gap-s);
+    font-size: 14px;
+  }
+}
