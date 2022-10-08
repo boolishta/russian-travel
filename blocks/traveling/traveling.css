@@ -1,25 +1,17 @@
 .traveling {
-  max-width: 984px;
+  max-width: var(--container-m);
   margin: 30px auto 0;
   padding: 0 var(--gap-l);
 }
 
 @media screen and (max-width: 1024px) {
   .traveling {
-    max-width: 928px;
     margin-top: 22px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .traveling {
-    max-width: 768px;
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .traveling {
-    max-width: 320px;
   }
 }

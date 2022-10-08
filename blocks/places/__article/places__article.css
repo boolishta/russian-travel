@@ -1,5 +1,12 @@
 .places__article {
   max-width: 690px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__article {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
