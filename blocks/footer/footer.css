@@ -1,16 +1,26 @@
 .footer {
-  margin-top: 92px;
-  padding-bottom: 24px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: var(--container-l);
+  margin: 92px auto 0;
+  padding: 0 var(--gap-l) 24px;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     margin-top: 88px;
+    padding-right: var(--gap-m);
+    padding-left: var(--gap-m);
   }
 }
 
 @media screen and (max-width: 500px) {
   .footer {
+    flex-direction: column;
+    gap: 48px;
     margin-top: 64px;
+    padding-right: var(--gap-s);
+    padding-left: var(--gap-s);
   }
 }
