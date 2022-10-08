@@ -1,4 +1,5 @@
 .regions__text {
+  grid-area: text;
   display: flex;
   flex-direction: column;
   gap: 27px;

@@ -1,5 +1,6 @@
 .regions__link-wrapper {
   display: flex;
+  grid-area: link;
   gap: 12px;
   flex-direction: column;
   justify-content: end;

@@ -1,7 +1,7 @@
 .regions {
   display: grid;
   gap: 80px;
-  max-width: 984px;
+  max-width: var(--container-m);
   margin: 92px auto 0;
   padding: 0 var(--gap-l);
 }
