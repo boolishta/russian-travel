@@ -1,0 +1,15 @@
+.traveling__figure {
+  margin: 64px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .traveling__figure {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .traveling__figure {
+    margin-top: 40px;
+  }
+}
