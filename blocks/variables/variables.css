@@ -1,5 +1,7 @@
 :root {
+  --gap-lx: 148px;
   --gap-l: 48px;
   --gap-m: 24px;
   --gap-s: 16px;
+  --container: 1184px;
 }
