@@ -1,12 +1,10 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/variables/variables.css);
-@import url(../blocks/base/base-link/base-link.css);
-@import url(../blocks/base/base-list/base-list.css);
-@import url(../blocks/container/container.css);
+@import url(../blocks/base-link/base-link.css);
+@import url(../blocks/base-list/base-list.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__inner/header__inner.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__language/header__language.css);
@@ -15,6 +13,7 @@
 @import url(../blocks/traveling/__title/traveling__title.css);
 @import url(../blocks/traveling/__subtitle/traveling__subtitle.css);
 @import url(../blocks/traveling/__image/traveling__image.css);
+@import url(../blocks/traveling/__figure/traveling__figure.css);
 @import url(../blocks/traveling/__sign/traveling__sign.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__article-wrapper/places__article-wrapper.css);
